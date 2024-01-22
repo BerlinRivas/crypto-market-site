@@ -1,0 +1,88 @@
+.crypto-list-container {
+    max-width: 600px;
+    margin: 0 auto;
+    width: 92%;
+  }
+  
+  .crypto-list-title {
+    text-align: initial;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-left: -400px;
+  }
+  
+  .crypto-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .crypto-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  
+    .crypto-image {
+      max-width: 100%;
+      display: block;
+    }
+  
+    .crypto-details {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .crypto-name {
+      font-size: 16px;
+      color: #111;
+      font-weight: 600;
+    }
+  
+    .crypto-symbol {
+      font-size: 12px;
+      color: #666;
+    }
+  
+    .crypto-price-container {
+      display: flex;
+      flex-direction: column;
+      margin-left: auto;
+  
+      .crypto-price {
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+      }
+  
+      .crypto-rank {
+        color: #666;
+        font-size: 12px;
+      }
+  
+      .view-chart-btn {
+        background-color: #10bf79;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        cursor: pointer;
+        border-radius: 4px;
+  
+        &:hover {
+          background-color: #17cf26;
+        }
+      }
+    }
+  }
+  
+  .crypto-list-container p {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
