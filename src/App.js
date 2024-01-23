@@ -6,6 +6,7 @@ import Market from './components/Market'
 import Trends from './components/Trends'
 import Contact from './components/Contact'
 import CryptoChart from './components/CryptoChart'
+import FAQ from './components/FAQ'
 import {Route, Routes} from 'react-router-dom'
 import './App.css'
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/market" element={<Market/>}/>
           <Route path="/trends" element={<Trends/>}/>
           <Route path="/contact" element={<Contact/>}/>
+          <Route path="/faq" element={<FAQ/>}/>
           <Route path="/:id" element={<CryptoChart />} />
         </Routes>
       <Footer />

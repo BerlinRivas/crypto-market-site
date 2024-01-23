@@ -15,7 +15,7 @@ const Footer = () => {
                     <h5>Support</h5>
                     <span className='bar'></span>
                         <Link to='/contact'>Contact Us</Link>
-                        <a href='/'>FAQ</a>
+                        <Link to='/faq'>FAQ</Link>
 
                 </div>
                 <div className='col'>
