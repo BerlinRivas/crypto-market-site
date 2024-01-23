@@ -250,7 +250,7 @@
 
 @media screen and (max-width: 1240px) {
     .hamburger {
-        display: flex
+        display: flex;
     }
     .nav-menu {
         position: absolute;
@@ -266,7 +266,7 @@
         border-left: 1px solid #eee;
     }
     .nav-menu.active {
-        right: 0
+        right: -120px;
     }
     .nav-menu li {
         padding: 1rem;
@@ -276,7 +276,13 @@
     .nav-menu a {
         font-size: 1.2rem;
     }
+    .no-scroll {
+        overflow-x: hidden;
+    }
 }
+
+
+  
 
 /* Signup.css */
 
@@ -309,4 +315,11 @@
     .signup .container {
         grid-template-columns: 1fr;
     }
+    body {
+        overflow-x: hidden;
+      }
 }
+
+body {
+    overflow-x: hidden;
+  }
